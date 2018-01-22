@@ -1,0 +1,195 @@
+*{
+		margin:0px;
+		padding: 0px;
+	}
+	.total{
+		width: 1024px;
+		height: 768px;
+		margin:0 auto;
+	}
+	.head{
+		width: 1024px;
+		height: 100%;
+		overflow: hidden;
+		position: static;
+	}
+	.menu{
+		align:center;
+		background-image:url("../images/我的网站_02.gif");
+		width: 1024px;
+		height:53px;
+		position: absolute;
+		top:107px; 
+	}
+	.con1{
+		width: 1024px;
+		height: 607px;
+		position: absolute;
+		top:160.23px;
+	}
+	.con2{
+
+	}
+	.left{
+		
+		background-image:url("../images/我的网站_03.jpg");
+		width: 136.58px;
+		height: 607px;
+		position:absolute;
+		top:0px;
+	}
+	.right{
+		width: 704px;
+		height: 567.61px;
+		position: relative;
+		left:136.58px;
+		top:0px;
+		
+
+	}
+	.picture{
+		width: 704px;
+		height: 253px;
+	}
+	.video{
+		background-image:url("../images/我的网站_06.gif");
+		width: 704px;
+		height: 315px;
+		position: relative;
+	}
+	.login{
+		background-image:url("../images/我的网站_05.gif");
+		width: 185px;
+		height: 253px;
+		position: relative;
+		left:840.57px;
+		top:-568.20px;
+	}
+	.study{
+		background-image:url("../images/我的网站_14.gif");
+		width: 185px;
+		height: 355px;
+		position: relative;
+		left:840.57px;
+		top:-568.20px;
+	}
+	.bottom{
+		width:704px;
+		height: 40px;
+		background: black;
+		position:relative; 
+	    left:136.58px;
+	    top:-608px;
+
+	}
+
+	ul,li{
+			display: inline-block;
+			position: static;
+            white-space: nowrap;
+            margin-right: -5px;
+
+		}
+		li{
+			font-size: 18px;
+			color: #FFF;
+			font-family: 汉仪文黑;
+			padding-left:50px;
+			padding-top: 14px;
+			margin-right: 5px;
+		}
+		dl{
+			margin-left: 30px;
+			margin-top:18px;
+		}
+		dt{
+			
+			color: red;
+			font-size: 18px;
+		}
+		dd{
+			color:#FFF;
+			font-size: 14px;
+			padding: 5px 10px;	
+		}
+		p{
+			color: #FFF;
+			font-size: 18px;
+			font-family: 幼圆;
+		    padding-left:15px;
+		    padding-top: 15px;
+		}
+		.search{
+			display: inline-block;
+			width: 185px;
+			height: 46px;
+			position: relative;
+			/*background: #FFF;
+			opacity: 0.1;*/
+		}
+		
+		input{
+
+			width: 143px;
+			height: 30px;
+			opacity: 0.5;
+			margin:5px 20px 5px 20px;
+		}
+		h2{
+			color: #0FF;
+			font-family: 幼圆;
+			margin-top: 30px;
+			margin-bottom: 10px;
+		}
+		.ser{
+			width: 105px;
+			height: 26.5px;
+			position: relative;
+			left: 50px;
+			top:-28px;
+			border-radius: 10px;
+			opacity: 0.5;
+		}
+		#login {
+		 /*background-image: url("../images/login.png");*/
+		 position: relative;
+		 margin-left: 20px;
+		 margin-top:10px;
+		 width: 62px;
+		 height: 30px;
+		}
+		#register{
+		 width: 62px;
+		 height: 30px;
+		 position: relative;
+		 margin-left: 13px;
+		}
+
+		td{
+		color: #FFF;
+		opacity: 0.8;
+		}
+		 a:hover{
+          color:red;
+         }
+         .No1:hover{
+         	color:red;
+         }
+         .No1:visited{
+         	color:orange;
+         }
+         .No1:active{
+         	color:yellow;
+         }
+         a{
+         	text-decoration: none;
+         }
+ .ad{
+ 	position:fixed;
+ 	left: 0px;
+ 	top:0px;
+ 	width:200px;
+ 	height: 400px;
+ 	/*background-attachment: scroll;*/
+ }         
+	

@@ -1,0 +1,73 @@
+
+		*{
+			margin: 0px;
+			padding:0px;
+		}
+		.total{
+		width: 1024px;
+		margin:0 auto;	
+		}
+		.menu{
+			background-image:url("../images/我的网站_02.gif");
+			width: 1024px;
+			height:53px;
+			position: relative;
+		}
+		ul,li{
+			display: inline-block;
+			position: static;
+			white-space: nowrap;
+			margin-right: -5px;
+		}
+		li{
+			font-size: 18px;
+			color: #FFF;
+			font-family: 汉仪文黑;
+			padding-left:50px;
+			padding-top: 14px;
+			margin-right: 5px;
+		}
+		.content{
+			background:#333333;
+			width: 1024px;
+			height: 1000px;
+			display: line;
+			
+		}
+		.text{
+			width:800px;
+			position: relative;
+			margin-left: 0px;
+			text-align: left;
+			float:left;
+		}
+		.link{
+			color: #FFF;
+			background: #333333;
+			line-height: 20px;
+			text-align: justify;
+			
+		}
+		h1 ,h6, p{
+			color: #FFF;
+			margin: 30px 20px;
+		}
+		p{
+			font-size: 18px;
+			text-align: justify;
+			/*两端对齐*/
+			margin:15px 20px;
+			line-height: 150%;
+			font-weight: lighter;
+			text-indent: 2em;
+			/*首行缩进2个字符*/	
+		}
+		dl{
+			padding: 20px 22px;
+		}
+		dt{
+			color:#33FF66;
+			padding:10px 0px;
+			font-size:24px;
+		}
+	
